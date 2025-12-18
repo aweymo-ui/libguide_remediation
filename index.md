@@ -5,7 +5,7 @@ gallery: true
 ---
 
 
-{% include gallery-figure.html img="banner.png" alt="Title card of the presentation LibGuide Remediation Workshop, Guide for University of Idaho Faculty, staff and Students, Andrew Weymouth, Winter 2025 and an illustration of spiralling stairwells from the Gem of the Mountain 1967 yearbook." %}
+{% include gallery-figure.html img="banner.jpg" alt="Title card of the presentation LibGuide Remediation Workshop, Guide for University of Idaho Faculty, staff and Students, Andrew Weymouth, Winter 2025 and an illustration of spiralling stairwells from the Gem of the Mountain 1967 yearbook." %}
 
 <br>
 
