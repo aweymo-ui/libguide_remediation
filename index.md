@@ -9,11 +9,11 @@ gallery: true
 
 <br>
 
-At the library, we have been working together to make sure our digital collections and main site meet the technical standards of the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/) and part of those efforts has been to make sure all of our instructional material is formatted correctly so all patrons can navigate our materials more easily.
+At the library, we have been working together to make sure our digital collections and main site meet the technical standards of the [Web Content Accessibility Guidelines 2.1](https://www.w3.org/TR/WCAG21/), and part of those efforts has been to make sure all of our instructional material is formatted correctly so all of our patrons can navigate our materials easily.
 
 <br>
 
-> The following steps will guide you through how to remediate your LibGuides for accessibility. 
+> The following steps will guide you through how to check and remediate your LibGuides for accessibility. 
 
 <br>
 

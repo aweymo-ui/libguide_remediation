@@ -1,12 +1,12 @@
 ---
-title: Images
-nav: Images
+title: Guide
+nav: Guide
 gallery: true
 ---
 
 <br>
 
-{% include feature/nav-menu.html sections="Getting Started;Text as Images;Adding and Editing Alt Text;Decorative Images;Complex images;PDFs;" %}
+{% include feature/nav-menu.html sections="Getting Started;Text as Images;Adding and Editing Alt Text;Decorative and Complex Images;PDFs;Media;Semantic Content;Check Links" %}
 
 <br>
 
@@ -44,7 +44,9 @@ When reviewing images being used as text, it is helpful to think about what this
 
 - Image must have alt text. 
 
-To check if images on your page are missing alt text, there are a variety of web browser plug-ins that are available. The one I use is called [Check My Links]{https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe?pli=1} and it quickly flags both invalid links as well as valid redirect links.
+To check if images on your page are missing alt text, there are a variety of web browser plug-ins that are available. The one I use is called [Image Alt Text Viewer](https://chromewebstore.google.com/detail/image-alt-text-viewer/nhmihbneenlkbjjpbimhegikadfleccd) and it quickly flags both invalid links as well as valid redirect links.
+
+{% include gallery-figure.html img="lib_remed_10.jpg" alt="Screen shot of a LibGuide with black boxes and green text visualizing the alt text of two embedded images on a page." caption="Example of the Alt Text Viewer plug-in on a LibGuide." %}
 
 To add or edit the alt text of the images in your LibGuides, select the edit icon in the lower right corner of the box where the image is located, then select `Edit` from the dropdown:
 
@@ -64,7 +66,7 @@ If you are wondering how to classify an image to determine whether it needs alt 
 
 <br>
 
-## Decorative Images
+## Decorative and Complex Images
 
 <br>
 
@@ -79,11 +81,7 @@ Decorative images are the only image types that should not have any alt text, so
 
 Although this shouldn't really come up too much in LibGuides, if you do have a decorative element, simply leave the alt text field blank for the item so patrons using screen readers will skip over it.
 
-<br>
-
-## Complex images
-
-<br>
+**Complex Images**
 
 While these elements don't seem to be incorporated in our LibGuides frequently, complex images such as charts and graphs need to have detailed descriptions in the body text that convey their full information. These images also need alt text that is less detailed but still conveys a sense of what is being communicated visually. An example from the [WCAG guide for creating alt text for complex visual images here](https://www.w3.org/WAI/tutorials/images/complex/):
 
@@ -95,4 +93,35 @@ This signposts to patrons using screen readers that this image will be unpacked 
 
 ## PDFs
 
-Check any PDF files that are being hosted onto our LibGuide or library servers, as we are responsible for making this material accessible. 
+<br>
+
+Check any PDF files that are being hosted onto our LibGuide or library servers, as we are responsible for making this material accessible. For a full guide to checking and remediating the accessibility of your PDF files with Adobe Acrobat Pro, please visit the [Adobe PDF Accessibility Remediation Workshop](https://aweymo-ui.github.io/remediate_pdfs/).
+
+{% include gallery-figure.html img="lib_remed_07.jpg" alt="title card of the presentation Adobe PDF Accessibility Remediation Workshop, guide for University of Idaho Faculty, staff and Students, Andrew Weymouth, Fall 2025 and an image of two circles using a PDF file called Effective Farming Systems." %}
+
+<br>
+
+## Media
+
+<br>
+
+All embedded video and audio needs to have a description that let's patrons know there is media below, as well as a transcript of the recording. The majority of embedded media that is currently on our LibGuides is coming from YouTube, which will have an auto-generated transcript that screen readers can tab through and implement on playback.
+
+In this example:
+
+{% include gallery-figure.html img="lib_remed_08.jpg" alt="Screen shot of a LibGuide page containing four videos under a tabbed header." width="50%" %}
+
+a short description before the video content would let patrons using screen readers know what is below and why it is relevant to the instruction topic. For example:
+
+- "Below are four short videos by Mike Caulfield, Director of Blended and Nerworked Learning, to help you develop your online verifications skills. After the introductory video, the second video will show you how to investigate source materials, followed by how to find the original source of the subject you are investigating, and finally a guide for finding trusted work."
+
+For video or audio media coming from a platform like YouTube that comes with an auto-caption, transcript will need to be created. Please reference [this guide to generate transcripts of either audio or video material using Adobe Premiere](https://aweymo-ui.github.io/premiere_transcripts/). This includes details on how to edit and export your transcripts, as well as turning the media into a video file with mono or bi-lingual captions.
+
+{% include gallery-figure.html img="lib_remed_09.jpg" alt="title card of the presentation Adobe Premiere Transcript Workshop, guide for University of Idaho Faculty, staff and Students, Andrew Weymouth, Winter 2025 and an image of two circles using the cover of the book Voces Hispanas: Hispanic Voices of Idaho." %}
+
+<br>
+
+## Semantic Content 
+
+## Check Links
+
