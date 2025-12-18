@@ -44,7 +44,7 @@ When reviewing images being used as text, it is helpful to think about what this
 
 - Images must have alt text. 
 
-To check if images on your page are missing alt text, there are a variety of web browser plug-ins that are available. The one I use is called [Image Alt Text Viewer](https://chromewebstore.google.com/detail/image-alt-text-viewer/nhmihbneenlkbjjpbimhegikadfleccd) and it quickly flags both invalid links as well as valid redirect links.
+To check if images on your page are missing alt text, there are a variety of web browser plug-ins that are available. The one I use is called [Image Alt Text Viewer](https://chromewebstore.google.com/detail/image-alt-text-viewer/nhmihbneenlkbjjpbimhegikadfleccd), which searches all of the image files embedded in the page and either displays its alt text field or lets you know it is missing.
 
 {% include gallery-figure.html img="lib_remed_10.jpg" alt="Screen shot of a LibGuide with black boxes and green text visualizing the alt text of two embedded images on a page." caption="Example of the Alt Text Viewer plug-in on a LibGuide." %}
 
