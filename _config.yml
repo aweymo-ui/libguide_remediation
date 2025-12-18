@@ -22,7 +22,7 @@ description: "Guide for University of Idaho Faculty and Staff."
 keywords: 
 # featured-image is added to metadata tags for social media sharing
 # use a relative path to image in this repository or full URL
-featured-image: "/images/banner.png"
+featured-image: "/images/banner.jpg"
 # add search box to footer? true/false
 search: true
 
