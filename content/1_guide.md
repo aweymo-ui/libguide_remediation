@@ -34,7 +34,7 @@ gallery: true
 
 > A screen reader friendly version of the above example could be "Look for the Find It icon," and then add alt text to the embedded image ("Find It icon").
 
-When reviewing images being used as text, it is helpful to think about what this is actually adding to guide that can't be achieved with text.
+When reviewing images being used as text, it is helpful to think about what this is actually adding to your guide that can't be achieved with text.
 
 <br>
 
@@ -42,7 +42,7 @@ When reviewing images being used as text, it is helpful to think about what this
 
 <br>
 
-- Image must have alt text. 
+- Images must have alt text. 
 
 To check if images on your page are missing alt text, there are a variety of web browser plug-ins that are available. The one I use is called [Image Alt Text Viewer](https://chromewebstore.google.com/detail/image-alt-text-viewer/nhmihbneenlkbjjpbimhegikadfleccd) and it quickly flags both invalid links as well as valid redirect links.
 
@@ -50,7 +50,7 @@ To check if images on your page are missing alt text, there are a variety of web
 
 To add or edit the alt text of the images in your LibGuides, select the edit icon in the lower right corner of the box where the image is located, then select `Edit` from the dropdown:
 
-{% include gallery-figure.html img="lib_remed_03.jpg" alt="Screen shot of the cover page for the Agricultural Economics LibGuide with a photograph of people and animals and a red arrow pointing at the lover right hand corner of the box." %}
+{% include gallery-figure.html img="lib_remed_03.jpg" alt="Screen shot of the cover page for the Agricultural Economics LibGuide with a photograph of people and animals and a red arrow pointing at the lower right hand corner of the box." %}
 
 Double click the image within the editing window:
 
@@ -62,7 +62,7 @@ Within the `Image Properties` window, add or edit descriptions in the `Alternati
 
 {% include feature/alert.html text="When writing alt text, a good rule of thumb is that the image description is generally everything that is _not_ in the image (date, time, location and names of people in the image) and the alt text description is everything that _is_ in the image (Two people wearing hats and suits beside a sign that reads Hat Store, standing on the sidewalk)." color="light" align="left" %}
 
-If you are wondering how to classify an image to determine whether it needs alt text, please visit the WCAG [Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/).
+If you are wondering how to classify an image to determine whether it needs alt text, you can refer to the [WCAG Alt Text Decision Tree](https://www.w3.org/WAI/tutorials/images/decision-tree/).
 
 <br>
 
@@ -105,17 +105,17 @@ Check any PDF files that are being hosted onto our LibGuide or library servers, 
 
 <br>
 
-All embedded video and audio needs to have a description that let's patrons know there is media below, as well as a transcript of the recording. The majority of embedded media that is currently on our LibGuides is coming from YouTube, which will have an auto-generated transcript that screen readers can tab through and implement on playback.
+All embedded video and audio needs to have a description that lets patrons know there is media below, as well as a transcript of the recording. The majority of embedded media that is currently on our LibGuides is coming from YouTube, which will have an auto-generated transcript that screen readers can tab through and implement on playback.
 
 In this example:
 
 {% include gallery-figure.html img="lib_remed_08.jpg" alt="Screen shot of a LibGuide page containing four videos under a tabbed header." width="50%" %}
 
-a short description before the video content would let patrons using screen readers know what is below and why it is relevant to the instruction topic. For example:
+A short description before the video content would let patrons using screen readers know what is below and why it is relevant to the instruction topic. For example:
 
-- "Below are four short videos by Mike Caulfield, Director of Blended and Nerworked Learning, to help you develop your online verifications skills. After the introductory video, the second video will show you how to investigate source materials, followed by how to find the original source of the subject you are investigating, and finally a guide for finding trusted work."
+- "Below are four short videos by Mike Caulfield, Director of Blended and Networked Learning, to help you develop your online verifications skills. After the introductory video, the second video will show you how to investigate source materials, followed by how to find the original source of the subject you are investigating, and finally a guide for finding trusted work."
 
-For video or audio media coming from a platform like YouTube that comes with an auto-caption, transcript will need to be created. Please reference [this guide to generate transcripts of either audio or video material using Adobe Premiere](https://aweymo-ui.github.io/premiere_transcripts/). This includes details on how to edit and export your transcripts, as well as turning the media into a video file with mono or bi-lingual captions.
+For video and audio media that does not have an auto-generated caption, a transcript will need to be created. Please reference [this guide to generate transcripts of either audio or video material using Adobe Premiere](https://aweymo-ui.github.io/premiere_transcripts/). This includes details on how to edit and export your transcripts, as well as turning the media into a video file with mono or bi-lingual captions.
 
 {% include gallery-figure.html img="lib_remed_09.jpg" alt="title card of the presentation Adobe Premiere Transcript Workshop, guide for University of Idaho Faculty, staff and Students, Andrew Weymouth, Winter 2025 and an image of two circles using the cover of the book Voces Hispanas: Hispanic Voices of Idaho." %}
 
@@ -123,5 +123,57 @@ For video or audio media coming from a platform like YouTube that comes with an 
 
 ## Semantic Content 
 
+<br>
+
+Scan the content of the page body to ensure it constructed correctly: 
+
+- Make sure that each section or "box" has a descriptive and meaningful title
+- All hyperlinks contain descriptive text
+    - For example, instead of "To find out more, `click here!`"
+    - State where the user will be going, like "To find out more, `visit the museum's exhibit page!`"
+- Ensure that text color alone is not used to convey meaning
+
+We can assume that LibGuides infrastructure is going to automatically structure material in a logical order using the default settings. However, if there is any custom HTML coding that has been added to the boxes of your LibGuide:
+
+- Any headings used on the page follow the correct logical order (H1, H2, H3...). 
+- HTML elements such as lists (ul, ol) are used (rather than arbitrary styling). 
+
+<br>
+
 ## Check Links
 
+<br>
+
+Given the recent redesign of the main University site and changes to government record organization, auditing for bad links (or correctly redirecting links) is very important. While there are many options out there, I use one called [Check My Links](https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe) to quickly vet all of the material on your pages. Everything you need with the tool can be accessed without the "unlocking features" level of this plug-in.
+
+{% include gallery-figure.html img="lib_remed_11.jpg" alt="Screen shot of a LibGuide page with the Check My Links plug-in functioning, making the valid links on the page dark green, valid redirect links light green and highlighting broken links in red." caption="Example of the Check My Links feature on our LibGuides." %}
+
+Use this tool or one similar to pinpoint any links that need updating. Select the edit tool within boxes that need correcting and save changes to implement.
+
+<br>
+
+<div style="width:100%; text-align:center;">
+
+  <div role="img" aria-label="ASCII art of a lil’ PDF feller — a smiling, anthropomorphic sheet of paper with arms and legs, looking proud of being accessible." style="background-color:white; padding:20px; border-radius:12px; display:inline-block; text-align:center; box-shadow:0 2px 6px rgba(0,0,0,0.1);">
+
+  <pre style="font-family: monospace; line-height: 1.1em; font-size: 14px; background-color:white; margin: 0 auto; display:inline-block; text-align:left;">
+
+       ________
+     /         \
+    |  LibGuide |  
+    |   -----   |  
+    |  ( •‿• )  |  
+    |    | |    |  
+     \_________/   
+     _||_   _||_  
+    /____\ /____\ 
+
+  </pre>
+
+  <p><b>That's it! Enjoy your accessible LibGuide!</b></p>
+
+  </div>
+
+</div>
+
+<br>
