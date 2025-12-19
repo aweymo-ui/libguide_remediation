@@ -142,7 +142,7 @@ We can assume that LibGuides infrastructure is going to automatically structure 
 
 <br>
 
-Given the recent redesign of the main University site and changes to government record organization, auditing for bad links (or correctly redirecting links) is very important. While there are many options out there, I use one called [Check My Links](https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe) to quickly vet all of the material on a page. Everything you need with the tool can be accessed without the "unlocking features" level of this plug-in.
+Given the recent redesign of the main University site and changes to government record organization, auditing for bad links (or correctly redirecting links) is important. While there are many options out there, I use one called [Check My Links](https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe) to quickly vet all of the material on a page. Everything you need with the tool can be accessed without the "unlocking features" level of this plug-in.
 
 {% include gallery-figure.html img="lib_remed_11.jpg" alt="Screen shot of a LibGuide page with the Check My Links plug-in functioning, making the valid links on the page dark green, valid redirect links light green and highlighting broken links in red." caption="Example of the Check My Links feature on our LibGuides." %}
 
