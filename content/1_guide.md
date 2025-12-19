@@ -30,11 +30,9 @@ gallery: true
 
 - Images should not be used as replacement for text or tables. 
 
-{% include gallery-figure.html img="lib_remed_04.png" alt="Example of an image being used for text in the form of a small Find It widget in a LibGuides box." caption="Example of an image being used for text in LibGuides." width="50%" %}
+{% include gallery-figure.html img="lib_remed_12.png" alt="Example of an image being used for text in the form of an image of stylized text reading: Need Help? Ask a Librarian." caption="Example of an image being used for text in LibGuides." width="50%" %}
 
-> A screen reader friendly version of the above example could be "Look for the Find It icon," and then add alt text to the embedded image ("Find It icon").
-
-When reviewing images being used as text, it is helpful to think about what this is actually adding to your guide that can't be achieved with text.
+When reviewing images being used as text, it is helpful to think about what the image is actually adding to your guide that can't be achieved with text. If you find that the image is crucial, alt text will need to be added to the image reading the text contents.
 
 <br>
 
@@ -133,7 +131,7 @@ Scan the content of the page body to ensure it constructed correctly:
     - State where the user will be going, like "To find out more, `visit the museum's exhibit page!`"
 - Ensure that text color alone is not used to convey meaning
 
-We can assume that LibGuides infrastructure is going to automatically structure material in a logical order using the default settings. However, if there is any custom HTML coding that has been added to the boxes of your LibGuide:
+We can assume that LibGuides infrastructure is going to automatically structure material in a logical order using the default settings. However, if there is any custom HTML coding that has been added to the boxes of your LibGuide, please ensure that:
 
 - Any headings used on the page follow the correct logical order (H1, H2, H3...). 
 - HTML elements such as lists (ul, ol) are used (rather than arbitrary styling). 
@@ -144,7 +142,7 @@ We can assume that LibGuides infrastructure is going to automatically structure 
 
 <br>
 
-Given the recent redesign of the main University site and changes to government record organization, auditing for bad links (or correctly redirecting links) is very important. While there are many options out there, I use one called [Check My Links](https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe) to quickly vet all of the material on your pages. Everything you need with the tool can be accessed without the "unlocking features" level of this plug-in.
+Given the recent redesign of the main University site and changes to government record organization, auditing for bad links (or correctly redirecting links) is very important. While there are many options out there, I use one called [Check My Links](https://chromewebstore.google.com/detail/check-my-links/aajoalonednamcpodaeocebfgldhcpbe) to quickly vet all of the material on a page. Everything you need with the tool can be accessed without the "unlocking features" level of this plug-in.
 
 {% include gallery-figure.html img="lib_remed_11.jpg" alt="Screen shot of a LibGuide page with the Check My Links plug-in functioning, making the valid links on the page dark green, valid redirect links light green and highlighting broken links in red." caption="Example of the Check My Links feature on our LibGuides." %}
 
